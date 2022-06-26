@@ -285,7 +285,7 @@ public class AppController {
                 }
             }
         }
-        if (response == null){
+        if (!(response == null)){
             //metadata in string
             String meta = financialAssetsFromDBtoString(dbAssetsTracker);
             //values in string
